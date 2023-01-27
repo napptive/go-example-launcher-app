@@ -8,4 +8,4 @@ application:
     ingressPath: /
 pre-exec:
   commands:  
-  - cmd: date
+  - cmd: date # Print the deploy date
