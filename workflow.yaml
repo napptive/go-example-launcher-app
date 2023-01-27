@@ -11,5 +11,4 @@ pre-build:
   - cmd: date
     dir: /temp/
     args:
-    - ">>" 
-    - "deployed.txt"
+    - ">> deployed.txt"
