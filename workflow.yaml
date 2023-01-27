@@ -10,6 +10,5 @@ pre-exec:
   commands:  
   - cmd: date
     args: 
-      - ">>"
-      - "deployed_on.txt"
+      - ">> deployed_on.txt"
     dir: /temp/
