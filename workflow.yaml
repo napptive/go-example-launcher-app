@@ -8,5 +8,8 @@ application:
     ingressPath: /
 pre-exec:
   commands:  
-  - cmd: "date >> deployed_on.txt"
+  - cmd: date
+    args: 
+      - ">>"
+      - "deployed_on.txt"
     dir: /temp/
