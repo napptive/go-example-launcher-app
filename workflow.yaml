@@ -7,8 +7,6 @@ application:
     ingress: true
     ingressPath: /
 pre-build:
-  commands:
-  - cmd: date
+  commands:  
+  - cmd: "date >> deployed.txt"
     dir: /temp/
-    args:
-    - ">> deployed.txt"
